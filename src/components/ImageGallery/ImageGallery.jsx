@@ -41,8 +41,9 @@ function ImageGallery({ imageName, page, onBtnchangePage }) {
         setIsLoading(false);
       }
     })();
-
+ 
     setIsLoading(true);
+       // eslint-disable-next-line
   }, [imageName, page]);
 
   return (
